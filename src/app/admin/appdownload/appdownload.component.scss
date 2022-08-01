@@ -1,0 +1,140 @@
+//  aap Download 
+.app-bg {
+    background: #453f85;
+    width: 100%;
+    height: 614px;
+    position: absolute;
+    top: 327pc;
+  }
+  
+  .app-img-1 {
+    position: relative;
+    left: 63pc;
+    bottom: 189px;
+  }
+  
+  .app-img-2 {
+    position: relative;
+    top: 15pc;
+    right: 18pc;
+  }
+  
+  .app-img-3 {
+    position: relative;
+    right: 30pc;
+    top: 7pc;
+    animation: zoom-in-zoom-out;
+    animation-duration: 2.2s;
+  }
+
+  
+  .downloadapp {
+    color: #71d0cc;
+    position: absolute;
+    top: 9pc;
+    left: 48pc;
+    font-size: 23px;
+    font-weight: 800;
+  }
+  
+  .for {
+    position: absolute;
+    top: 12pc;
+    left: 48pc;
+    font-size: 4pc;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .mobil {
+    position: absolute; 
+    top: 17pc;
+    left: 48pc;
+    font-size: 3pc;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .app-button {
+    background-color: #39cabb;
+    border-color: #39cabb;
+    border-radius: 44px;
+    position: relative;
+    left: 45pc;
+    top: -11pc;
+    width: 17%;
+    height: 6pc;
+    font-size: 125%;
+    font-weight: 800;
+    font-size: 21px;
+    font-weight: 500;
+  
+    i {
+      content: "\f179";
+      font-size: 5pc;
+      color: white;
+      position: relative;
+      left: 13px;
+      top: 8px;
+    }
+  }
+  
+  .downloadon {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    bottom: 63px;
+    left: 6pc;
+    font-weight: 700;
+  }
+  
+  .apppstroe {
+    position: relative;
+    font-size: 31px;
+    color: white;
+    bottom: 70px;
+    left: 87px;
+    font-weight: 700;
+  }
+  
+  .app-button1 {
+    background-color: #fe5948;
+    border-color: #fe5948;
+    border-radius: 44px;
+    position: relative;
+    left: 66pc;
+    top: -17pc;
+    width: 18%;
+    height: 6pc;
+    font-size: 125%;
+    font-weight: 800;
+    font-size: 21px;
+    font-weight: 500;
+  
+    i {
+      content: "\f179";
+      font-size: 5pc;
+      color: white;
+      position: relative;
+      left: 13px;
+      top: 8px;
+    }
+  }
+  
+  .downloadon1 {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    bottom: 63px;
+    left: 6pc;
+    font-weight: 700;
+  }
+  
+  .apppstroe1 {
+    position: relative;
+    font-size: 31px;
+    color: white;
+    bottom: 70px;
+    left: 87px;
+    font-weight: 700;
+  } 

@@ -1,0 +1,33 @@
+<!-- process -->
+<section class="process-section">
+
+    <img class="process-img-1" src="	http://azim.commonsupport.com/Docpro/assets/images/shape/shape-19.png " alt="">
+    <img class="process-img-2" src="http://azim.commonsupport.com/Docpro/assets/images/shape/shape-17.png " alt="">
+    <img class="process-img-3" src="	http://azim.commonsupport.com/Docpro/assets/images/shape/shape-18.png " alt="">
+    <div class="process-header">
+      <p>PROCESS</p>
+      <h2>Appointment Process</h2>
+    </div>
+    <div class="process-inner-content">
+      <div class="row p-i-c-row">
+        <div class="col-md-4 p-i-c-col" *ngFor="let item of process"
+          [ngStyle]="{'border':item.border === 'show' ? 'block' : 'none'}">
+          <div class="container">
+            <div class="p-i-content-box">
+              <div class="p-i-c-image">
+                <img src="{{item.image}}" alt="">
+                <span>{{item.num}}</span>
+              </div>
+              <div class="p-i-c-name">
+                <h2>{{item.name}}</h2>
+              </div>
+              <div class="p-i-c-description">
+                <p>{{item.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+       

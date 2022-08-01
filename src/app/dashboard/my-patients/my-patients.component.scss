@@ -1,0 +1,117 @@
+@import "/src/styles.scss";
+
+
+
+
+.add_list-section {
+    background: #fff;
+    width: 100%;
+    border-radius: 20px;
+    // width: 100%;
+    // height: 719px;
+    // overflow-y: scroll;
+
+    .form-content {
+        padding: 30px;
+
+        .form_item {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.patient_l-header {
+
+    padding: 30px;
+    border-bottom: 2px solid #e5e7ec;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #00224f;
+
+    }
+
+    .que_ans-search-wrapper {
+        border-radius: 22px;
+        border: none;
+    }
+
+    .que_ans-searchbar {
+
+        input {
+            width: 280px;
+            height: 30px;
+            border-radius: 20px;
+            padding: 20px;
+            border: 1px solid;
+            outline: none;
+
+        }
+
+        i {
+            color: black;
+            position: relative;
+            right: 30px;
+        }
+    }
+}
+
+
+
+// table
+.dr-td-box {
+    display: flex;
+
+    .dr-td-item {
+        .dr-name-item {
+            margin: 0px;
+            font-size: 19px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .dr-p-tiem {
+            margin: 0px;
+            color: #39cabb;
+            margin-left: 10px;
+        }
+    }
+}
+.dr-appt-data{
+    p{
+        margin: 0px;
+    }
+    .dr-appt-tiem{
+        color: #39cabb;
+    }
+}
+.dr-edit-button{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #ebfbf3;
+    color: #39dc86;
+    border: #39dc86
+    ;
+}
+.dr-cancle-button{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #F5E7E3;
+    color: #fe5948;
+    border: #fe5948;
+
+}
+

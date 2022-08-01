@@ -1,0 +1,245 @@
+.row {
+    margin: 41px;
+    
+}
+
+
+.dr-bg-img1 {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-79.png) no-repeat, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-80.png) 100% 100% no-repeat white;
+
+    .dr-icon1 {
+        left: 50px;
+        width: 100px;
+        line-height: 100px;
+        background: #fff;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 0 10px 30px #e6efee;
+        margin: 46px 0 0 29px;
+        color: #39cabb
+    }
+
+    .dr-item-liest1 {
+        margin: -62px 0px 18px 148px;
+
+        h3 {
+            font-size: 2.75rem;
+            color: #00224f;
+            font-weight: 800;
+        }
+
+        h6 {
+            max-width: 151px;
+            margin: 0px;
+        }
+
+        p {
+            max-width: 5pc;
+
+        }
+    }
+}
+
+.dr-bg-img2 {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-81.png) no-repeat, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-82.png) 100% 100% no-repeat white;
+
+    .dr-icon2 {
+        left: 50px;
+        width: 100px;
+        line-height: 100px;
+        background: #fff;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 0 10px 30px #e6efee;
+        margin: 46px 0 0 29px;
+        color: #39cabb
+    }
+
+    .dr-item-liest2 {
+        margin: -62px 0px 18px 148px;
+
+        h3 {
+            font-size: 2.75rem;
+            color: #00224f;
+            font-weight: 800;
+        }
+
+        h6 {
+            max-width: 151px;
+            margin: 0px;
+        }
+
+        p {
+            max-width: 5pc;
+
+        }
+    }
+}
+
+.dr-bg-img3 {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-83.png) no-repeat, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-84.png) 100% 100% no-repeat white;
+
+    .dr-icon3 {
+        left: 50px;
+        width: 100px;
+        line-height: 100px;
+        background: #fff;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 0 10px 30px #e6efee;
+        margin: 46px 0 0 29px;
+        color: #39cabb
+    }
+
+    .dr-item-liest3 {
+        margin: -62px 0px 18px 148px;
+
+        h3 {
+            font-size: 2.75rem;
+            color: #00224f;
+            font-weight: 800;
+        }
+
+        h6 {
+            max-width: 151px;
+            margin: 0px;
+        }
+
+        p {
+            max-width: 5pc;
+
+        }
+    }
+}
+
+// Doctors Appointment
+.password {
+    background: white;
+    border-radius: 20px;
+    max-width: 96%;
+
+    h3 {
+        padding: 31px;
+        font-weight: 800;
+    }
+}
+
+.formbg {
+    padding: 35px;
+    max-width: 50%;
+}
+
+.submit-button {
+
+    display: inline-block;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff !important;
+    text-align: center;
+    padding: 12px 14px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px #d5edea;
+    background: #39cabb;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 44px 0px 0 7px;
+
+    i {
+        padding: 0 0 0 9px;
+    }
+}
+
+.cancel-button {
+
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    background: #fff;
+    color: #061a3a;
+    border: 2px solid #e5eded;
+    border-radius: 30px;
+    padding: 11px 28px;
+    margin-left: 6px;
+    text-align: center;
+
+    border: 1px solid
+}
+
+.dr-button {
+    padding: 0 0 30px 0;
+    margin: 0 0 0px 71px;
+}
+
+// table
+.dr-td-box {
+    display: flex;
+
+    .dr-td-item {
+        .dr-name-item {
+            margin: 0px;
+            font-size: 19px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .dr-p-tiem {
+            margin: 0px;
+            color: #39cabb;
+            margin-left: 10px;
+        }
+    }
+}
+.dr-appt-data{
+    p{
+        margin: 0px;
+    }
+    .dr-appt-tiem{
+        color: #39cabb;
+    }
+}
+.dr-confirm-button{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #ebfbf3;
+    color: #39dc86;
+    border: #39dc86
+    ;
+}
+.dr-Cancelled-button{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #F5E7E3;
+    color: #fe5948;
+    border: #fe5948;
+
+}
+
+.dr-pending-button{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #fff6e5;
+    color: #ffab01;
+    border: #ffab01;
+}
+ 

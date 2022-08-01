@@ -1,0 +1,35 @@
+<div class="login-section">
+    <div class="login-h-icon">
+            <h2> Doctor Login </h2>
+              
+    </div>
+    
+</div>
+<form  [formGroup]="form" *ngFor="let item of getData"  >
+   <div class="login-background">
+    <div class="login-box">
+        <div class="title-box">
+            <h2>{{ item.drName}}</h2>
+        </div>
+            <div class="content-item">
+                <div class="username mb-2">
+                    <label class="form-label">username:</label>
+                    <input type="text" class="form-control" (change)="method_username($event)" placeholder="Enter usernaem...">
+                </div>
+                <div class="password ">
+                    <label class="form-label">password:</label>
+                    <input type="password" class="form-control" (change)="method_password($event)" placeholder="Enter password...">
+                </div>
+            </div>
+            <div class="button">
+                <button (click)="login()" class="btn btn-success Login">Login Now</button>
+            </div>
+        
+        </div>
+    </div>
+</form>
+
+
+
+
+   

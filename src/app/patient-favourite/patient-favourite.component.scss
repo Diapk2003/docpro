@@ -1,0 +1,61 @@
+.card-deck {
+    max-width: 100%;
+}
+
+.str {
+    display: flex;
+
+    .p-f-str-item {
+        color: #ffab01;
+        margin-left: 5px;
+
+    }
+
+    .text28 {
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+.p-f-map {
+    color: #808080;
+
+    i {
+        margin-right: 10px;
+    }
+}
+
+.booknow-button {
+    position: relative;
+    display: inline-block;
+    margin-left: 145px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 600;
+    border: 2px solid #ebeef1;
+    border-radius: 30px;
+    text-align: center;
+    padding: 7px 27px;
+    text-align: center;
+
+    &:hover {
+        background: #39cabb;
+
+
+    }
+}
+
+.card-body {
+    i {
+        color: #39cabb;
+        margin-left: 13px;
+    }
+}
+.p-f-img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+
+}
+.card{
+    overflow: hidden;
+}

@@ -1,0 +1,78 @@
+.doctor-menu {
+    background-color: #ebf7f6;
+    height: 900px;
+
+    img {
+        background-color: #453f85;
+        max-width: 85%;
+        margin: 38px 0px 0 52px;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+.d-d-img-box {
+    background: white;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: -49px;
+    box-shadow: 0 20px 30px rgb(0 24 73 / 8%);
+    width: 59%;
+    position: relative;
+    left: 100px;
+
+    .d-d-box-item {
+        text-align: center;
+        margin-top: 8px
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.menu-liest {
+    background-color: #fff;
+    max-width: 375px;
+    margin: -47px 0px 0 52px;
+    height: auto;
+
+    .menu-liest-item {
+        padding: 65px 0 0 0px;
+        font-size: 121%;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 10px;
+        color: #808080;
+
+        i {
+            padding: 0 18px 0 0px;
+        }
+
+        a {
+            padding: 0 0 0 28px;
+            color: #808080;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #39cabb;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    // li:hover {
+    //     background-color: #80808024;
+    // }
+}
+.active{
+    background-color: #80808024;
+    }
+    

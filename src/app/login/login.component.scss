@@ -1,0 +1,83 @@
+
+.login-section{
+    padding: 52px 0px 48px 0px;
+    background:url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-70.png)no-repeat 10% 0,
+    url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-71.png)no-repeat 90% 100%,#453f85;
+}
+.login-h-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    img{
+        width: 215px
+    }
+}
+
+
+.login-box{
+    height: 430px; 
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 30%;
+    
+
+    
+}
+.login-background{
+    background-color: #ebf7f6;
+    width: 100%;
+    padding: 63px 0px;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.title-box{
+    height: 60px;
+    background: #453f85;
+    h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    position: relative;
+    font-weight: 700;
+    }
+}
+
+.p-d-button{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.Login{
+    background: #39cabb;
+    border-radius: 7px;
+    width: 65%;
+    &:hover{
+        background-color: #453f85
+    }
+}
+.Facebook{
+    background: #3a559f;
+    border-radius: 7px;
+}
+.google{
+    background: #dd4b39;
+    border-radius: 7px;
+}
+    .text{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content-item{
+    padding: 30px;
+}

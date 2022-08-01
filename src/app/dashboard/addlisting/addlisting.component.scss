@@ -1,0 +1,76 @@
+@import "/src/styles.scss";
+
+// common code for all form-conten
+
+.add_list-section {
+    background: #fff;
+    width: 100%;
+    border-radius: 20px;
+    
+
+    .form-content {
+        padding: 30px;
+        margin: 30px;
+        .form_item {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// basic information
+
+.basic-i-header {
+    padding: 30px;
+    border-bottom: 2px solid #e5e7ec;
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #00224f;
+
+    }
+}
+
+
+// address
+
+.address-header {
+
+    @include header
+}
+
+// Curriculum
+
+.curriculum-header {
+    @include header
+}
+
+
+// Social Network Info
+
+.social-n-i-header {
+    @include header
+}
+
+// pricing
+
+.pricing-header {
+
+    @include header
+}
+
+
+// button
+
+.change_p-s_button {
+    padding: 0 0px 60px 26px;
+
+    .submit-button {
+        @include submit-b
+    }
+
+    .cancle-button {
+        @include cancle-b
+    }
+
+}

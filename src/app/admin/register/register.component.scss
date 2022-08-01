@@ -1,0 +1,157 @@
+.box-login {
+    position: relative;
+    padding: 52px 0px 48px 0px;
+    background-color: #453f85;
+}
+
+.head {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+.design {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+}
+
+.design-1 {
+    position: absolute;
+    top: 47px;
+    right: 143px;
+}
+
+.r-background {
+    background-color: #ebf7f6;
+    width: 100%;
+    padding: 4%;
+}
+
+.h-s-content {
+    padding: 13px 50px;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    i {
+        margin: 6px
+    }
+
+}
+
+.content-box {
+    height: 769px;
+    width: 563px;
+    margin: auto;
+    position: relative;
+    display: block;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    top: 50px;
+}
+
+.header {
+    height: 60px;
+    background: #453f85;
+
+    h2 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        top: 10px;
+        position: relative;
+        font-weight: 700;
+    }
+}
+
+.content-item {
+    padding: 20px 40px 0px 40px;
+}
+
+.r-button {
+    text-align: center;
+    margin-top: 20px;
+
+    button {
+        background: #39cabb;
+        border-radius: 19px;
+        width: 65%;
+        border: none;
+
+        &:hover {
+            background-color: #453f85;
+        }
+    }
+}
+
+.p-d-button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.facebook-btn {
+    background: #3a559f;
+    border-radius: 19px;
+}
+
+.google-btn {
+    background: #dd4b39;
+    border-radius: 19px;
+}
+
+.re-doctor-modal {
+    .RegisterNow {
+        background-color: #39cabb;
+        border-color: #39cabb;
+        border-radius: 44px;
+        width: 39%;
+        font-size: 125%;
+        font-weight: 800;
+        font-weight: 500;
+        box-shadow: 0 10px 10px #d5edea;
+        padding: 2%;
+        margin-left: 26%;
+        color: white;
+    }
+
+    .modal-body {
+        position: relative;
+        padding: 0px;
+        text-align: center;
+        padding: 20px;
+        img {
+            width: 36%;
+            // margin-left: 30%;
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 172%;
+            padding: 20px;
+            color: #00224f;
+            
+        }
+        ul{
+            list-style: none;
+            margin-right: 21px;
+            font-size: larger;
+            font-weight: 700;
+            color: #00224f;
+        }
+    }
+}

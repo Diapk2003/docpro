@@ -1,0 +1,121 @@
+// process 
+
+
+.process-section {
+    height: 700px;
+    width: 100%;
+    background-color: #453f85;
+    position: relative;
+    bottom: 70pc;
+  }
+  
+  .process-header {
+    position: relative;
+    top: 55px;
+  
+    p {
+        color: #39cabb;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+        top: 0pc;
+        left: 20pc;
+        width: 56%;
+
+    }
+  
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 55px;
+      font-weight: 800;
+    }
+  }
+   
+  .process-img-1 {
+    position: absolute;
+    left: 65pc;
+  }
+  
+  .process-img-2 {
+    position: absolute;
+    top: 35pc;
+    left: 5pc;
+  }
+  
+  .process-img-3 {
+    position: absolute;
+    left: 7pc;
+    top: 2pc;
+  }
+  
+  .process-inner-content {
+    position: relative;
+    background-color: #fff;
+    height: 390px;
+    width: 80%;
+    left: 151px;
+    top: 100px;
+    border-radius: 20px;
+  
+    span {
+      position: absolute;
+      top: 0px;
+      font-size: 24px;
+      font-family: 'Jost', sans-serif;
+      color: #fff;
+      background: #061a3a;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 50%;
+  
+    }
+  }
+  
+  .p-i-c-row {
+    height: 390px;
+  
+  }
+  
+  .p-i-c-col {
+    border-right: 2px solid #e4f2f1;
+  }
+  
+  .p-i-content-box {
+    position: relative;
+    top: 20px;
+  }
+  
+  .p-i-c-image {
+    position: relative;
+    top: 20px;
+  }
+  
+  .p-i-c-name {
+    position: relative;
+    top: 40px;
+  
+    h2 {
+      font-size: 33px;
+      font-weight: 700;
+    }
+  
+  }
+  
+  .p-i-c-description {
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+  
+    p {
+      position: relative;
+      top: 0pc;
+      width: 24pc;
+      left: 0pc;
+      font-weight: 400;
+    }
+  }
+  

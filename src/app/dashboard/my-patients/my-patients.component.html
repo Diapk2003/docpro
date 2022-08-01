@@ -1,0 +1,67 @@
+<div class="container">
+    <section class="add_list-section">
+    
+        <div class="patient_l-header">
+            <h1>Patient List</h1>
+            <div class="que_ans-search-wrapper">
+                <div class="que_ans-searchbar">
+                  <input  type="text"   placeholder="search">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+              </div> 
+        </div>
+           <!-- table -->
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Patient Name</th>
+                <th scope="col">Sex</th>
+                <th scope="col">Address</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Age</th>
+                <th scope="col">Blood Group	</th>
+                <th scope="col">Action</th>
+                <th scope="col">Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of patientlist, let i=index">
+                <th scope="row">{{i+1}}</th>
+                <td>
+                    <div class="dr-td-box">
+                        <div class="dr-td-img">
+                            <img src="{{item.image}}" alt="">
+                        </div>
+                        <div class="dr-td-item">
+                            <p class="dr-name-item">{{item.patientname}}</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dr-appt-data">
+                        <p>{{item.sex}}</p>
+                    </div>
+                </td>
+                <td>
+                    <p>{{item.address}}</p>
+                </td>
+                <td>
+                    <p> {{item.mobileno}}</p>
+                </td>
+                <td>
+                    <p> {{item.age}}</p>
+                </td>
+                <td>
+                    <p> {{item.bloodgroup}}</p>
+                </td>
+                <td><button type="submit" class="dr-edit-button">edit</button></td>
+                <td><button type="submit" class="dr-cancle-button">cancle</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+    </section>
+</div>

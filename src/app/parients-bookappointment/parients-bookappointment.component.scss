@@ -1,0 +1,436 @@
+ .d-d-heder {
+     margin-top: 2%;
+
+ }
+
+
+ .d-d-backcolor {
+     background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-70.png) no-repeat 12% 0%, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-71.png) no-repeat 91% 110%, #453f85;
+
+     h1 {
+         display: flex;
+         justify-content: center;
+         padding: 56px;
+         color: white;
+     }
+ }
+ .h-s-content {
+    padding: 13px 50px;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+    
+    i {
+        margin: 6px
+    }
+
+}
+
+ //  demo
+ .background {
+     background: #ebf7f6;
+ }
+
+
+ .header {
+     background: #453f85;
+     border-radius: 10px 10px 0 0;
+
+     h2 {
+         color: white;
+         font-weight: 700;
+         padding: 3%;
+     } }
+
+
+
+
+ // Appointment Information
+
+
+ .Appointment-information {
+     padding: 25px;
+     background: white;
+     color: black;
+  
+
+     .p-book {
+         p {
+             margin: 0px;
+             padding: 10px;
+         }
+     }
+ }
+
+ .row {
+     width: 100%;
+ }
+
+ .card-logo {
+     display: flex;
+     width: 50%;
+     height: 41%;
+     margin-top: 38px;
+ }
+
+
+ //  Booking Summary
+
+ .Appointment-box2 {
+    background: #453f85;
+    border-radius: 10px 10px 0 0;
+    color: white;
+
+
+
+     h2 {
+         text-align: center;
+         padding: 20px;
+         font-weight: 700;
+     }
+ }
+
+ .Booking-Summary-item {
+     padding: 10px;
+     display: flex;
+     background: white;
+     color: black;
+
+     .Booking-Summary-date {
+         margin: 0px;
+         margin-left: 54%;
+
+
+     }
+
+     .item-liest-1 {
+         list-style-type: none;
+         margin: 0px;
+
+         li {
+             margin: 10px;
+         }
+     }
+
+     .item-liest-2 {
+         list-style-type: none;
+         margin: 0px;
+
+         li {
+             margin: 10px;
+         }
+     }
+ }
+
+ .total {
+     font-size: 22px;
+     font-weight: 500;
+     padding: 10px
+ }
+
+ .total-amount {
+     font-size: 22px;
+     font-weight: 500;
+     padding: 10px
+ }
+
+ button {
+     margin: 10px;
+     padding: 10px;
+     border-radius: 38px;
+     position: relative;
+     left: 26%;
+     background-color: #39cabb;
+     border: 1px solid #39cabb;
+     font-weight: 600;
+ }
+
+ .f-c-content {
+    // height: 280px;
+    width: 100%;
+    background-color: #453f85;
+    margin: auto;
+    border-radius: 10px;
+    top: 140px;
+    position: relative;
+    z-index: 1;
+    padding: 20px 0px 20px 0;
+    padding: 30px;
+}
+
+
+.f-content-item {
+    color: #fff;
+    border: 1px #fff;
+    border-style: dashed;
+    margin: 20px 20px;
+    border-radius: 10px;
+
+    h1 {
+        //  left: 20px;
+        // position: relative;
+        padding: 20px;
+        font-size: 35px;
+        font-weight: 800
+    }
+}
+
+
+
+.support-box {
+    display: flex;
+    padding: 0px 0px 24px 20px;
+    align-items: center;
+
+    .telephone{
+        padding: 0px 0px 0px 20px
+    }
+
+    a {
+        text-decoration: none;
+        color: #39cabb;
+        // left: -44px;
+        position: relative;
+        // top: 6px
+    }
+}
+
+
+
+.search-box {
+    // position: relative;
+    // left: 40px;
+    display: flex;
+    padding: 0px 60px 0 20px;
+
+    input {
+        padding: 0px 0px 0px 35px;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 15px;
+        color: #fff;
+        border-radius: 30px 0px 0px 30px;
+        outline: none;
+    }
+
+    button {
+        flex-shrink: 0;
+        padding: 13px;
+        // border-radius: 38px;
+        // position: relative;
+        left: 0px;
+        background-color: #39cabb;
+        color: #fff;
+        outline: none;
+        border: 1px solid #39cabb;
+        border-radius: 0px 30px 30px 0px;
+    }
+
+    i {
+        font-size: 22px;
+        // top: 3px;
+        // position: relative;
+        vertical-align: middle;
+    }
+}
+
+
+//footer css
+
+.footer-section {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-30.png) no-repeat 0 0, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-31.png) no-repeat 100% 100%, #1a2332;
+    width: 100%;
+    // height: 650px;
+    position: relative;
+}
+
+
+.f-content {
+    list-style-type: none;
+
+    li {
+        color: #fff;
+        padding: 8px 9px;
+        transition: all 500ms ease;
+
+        &:hover {
+            color: #39cabb;
+            cursor: pointer;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        
+    }
+
+    img {
+        height: 55px;
+       
+    }
+
+    p {
+        color: #fff;
+        padding: 8px 9px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 15px;
+       
+        &:hover {
+            color: #39cabb;
+        }
+    }
+
+
+}
+
+.footer-list-item {
+    // position: relative;
+    // top: 280px;
+    padding: 230px 0px 30px 0;
+
+}
+
+.footer-l-icon {
+    display: flex;
+    align-items: center;
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+
+    }
+
+    span {
+        color: #fff;
+        padding: 8px 15px;
+        line-height: 26px
+    }
+}
+
+.footer-r-icon {
+    padding: 20px 0px 20px 0;
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+    }
+
+}
+
+.footer-e-icon {
+    padding: 20px 0 20px 0;
+
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+    }
+}
+
+
+// footer
+.footer-section {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-30.png) no-repeat 0 0, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-31.png) no-repeat 100% 100%, #1a2332;
+    width: 100%;
+    // height: 650px;
+    position: relative;
+}
+
+
+.f-content {
+    list-style-type: none;
+
+    li {
+        color: #fff;
+        padding: 8px 9px;
+        transition: all 500ms ease;
+
+        &:hover {
+            color: #39cabb;
+            cursor: pointer;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        
+    }
+
+    img {
+        height: 55px;
+       
+    }
+
+    p {
+        color: #fff;
+        padding: 8px 9px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 15px;
+       
+        &:hover {
+            color: #39cabb;
+        }
+    }
+
+
+}
+
+.footer-list-item {
+    padding: 230px 0px 30px 0;
+
+}
+
+.footer-l-icon {
+    display: flex;
+    align-items: center;
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+
+    }
+
+    span {
+        color: #fff;
+        padding: 8px 15px;
+        line-height: 26px
+    }
+}
+
+.footer-r-icon {
+    padding: 20px 0px 20px 0;
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+    }
+
+}
+
+.footer-e-icon {
+    padding: 20px 0 20px 0;
+
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+    }
+}
+
+

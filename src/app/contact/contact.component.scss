@@ -1,0 +1,176 @@
+@import "/src/styles.scss";
+
+.career-section {
+    padding: 52px 0px 48px 0px;
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-70.png)no-repeat 10% 0,
+        url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-71.png)no-repeat 90% 100%, #b7e9e1;
+}
+
+.career-title {
+    color: #00224f;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+
+
+.r-background {
+    background-color: #ebf7f6;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.h-s-content {
+    padding: 13px 50px;
+    display: flex;
+
+    h4 {
+        font-size: 21px;
+        color: #90a5a9;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    i {
+        margin: 6px
+    }
+
+}
+
+.career-process {
+    text-align: center;
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/icons/arrow-1.png) no-repeat 49% 23%;
+
+    h5 {
+        color: #39cabb;
+    }
+
+    h1 {
+        color: #00224f;
+        font-weight: 700
+    }
+
+    .career-card {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background: #fff;
+        border-radius: 70px;
+        line-height: 200px;
+        text-align: center;
+        margin-bottom: 33px;
+        box-shadow: 0px 20px 40px rgb(0 24 73 / 10%);
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+
+        h3 {
+            font-size: 128%;
+            font-weight: 900;
+            color: #00224f;
+            margin: 15px 0 0 0;
+        }
+    }
+
+    .career-faq-s {
+        background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-90.png) 95% 0% no-repeat, white;
+
+        p {
+            color: #39cabb;
+            font-weight: 700;
+        }
+
+        .career-item-text {
+            margin-top: 11%;
+
+            .card.card-body {
+                width: 56%;
+                margin-left: 22%;
+            }
+        }
+
+        img {
+            width: 53%;
+            margin-left: 24%;
+        }
+
+        .caree-contact {
+            margin-top: 5%;
+
+            h6 {
+                font-weight: 600;
+                padding-bottom: 17px;
+                color: #39cabb;
+            }
+
+            h1 {
+                font-size: 50px;
+                line-height: 55px;
+                font-weight: 900;
+            }
+
+            input {
+                margin: 20px;
+            }
+
+            textarea {
+                margin-left: 7%;
+                max-width: 95%;
+            }
+
+            .send {
+                background-color: #39cabb;
+                border-color: #39cabb;
+                border-radius: 44px;
+                font-size: 125%;
+                font-weight: 800;
+                font-size: 21px;
+                font-weight: 500;
+                box-shadow: 0 10px 10px #d5edea;
+                padding: 15px;
+                max-width: 30%;
+                margin: 20px;
+
+                i {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .career-item-h2 {
+        h2 {
+            font-size: 50px;
+            line-height: 55px;
+            font-weight: 900;
+            color: #00224f;
+            font-family: 'Jost', sans-serif;
+        }
+
+        p {
+            color: #39cabb;
+            font-weight: 700;
+            text-align-last: justify;
+            margin: 0 0 0 124px;
+        }
+
+
+    }
+}

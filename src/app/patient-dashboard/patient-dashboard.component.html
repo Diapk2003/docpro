@@ -1,0 +1,93 @@
+<div class="row">
+    <div class="col-sm-4 ">
+        <div class="card dr-bg-img1">
+            <div class="dr-icon1">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class="dr-item-liest1">
+                <h3>170</h3>
+                <h6>Total Appointment</h6>
+                <p>Lorem ipsum dolor amet eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card dr-bg-img2">
+            <div class="dr-icon2">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div class="dr-item-liest2">
+                <h3>20</h3>
+                <h6>New Messages</h6>
+                <p>Lorem ipsum dolor amet eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card dr-bg-img3">
+            <div class="dr-icon3">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="dr-item-liest3">
+                <h3>50</h3>
+                <h6>New Reviews</h6>
+                <p>Lorem ipsum dolor amet eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Doctors Appointment -->
+<div class="password">
+    <h3>Patient Register</h3>
+    <div class="dr-button">
+        <button type="submit" class=" submit-button">Upcomimg <i class="fa fa-arrow-right"></i></button>
+        <button type="reset" class=" cancel-button">Today</button>
+    </div>
+    <!-- table -->
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Doctor Name</th>
+                <th scope="col">Appt Date</th>
+                <th scope="col">Booking Date</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of doctorappointment, let i=index">
+                <th scope="row">{{i+1}}</th>
+                <td>
+                    <div class="dr-td-box">
+                        <div class="dr-td-img">
+                            <img src="{{item.image}}"
+                                alt="">
+                        </div>
+                        <div class="dr-td-item">
+                            <p class="dr-name-item">{{item.title}}</p>
+                            <p class="dr-p-tiem">{{item.description}}</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dr-appt-data">
+                        <p>{{item.date}}</p>
+                        <p class="dr-appt-tiem">{{item.time}}</p>
+                    </div>
+                </td>
+                <td>
+                    <p>{{item.bookingdate}}</p>
+                </td>
+                <td>
+                    <p> {{item.amount}}</p>
+                </td>
+                <td><button type="submit" class="{{item.buttonclass}}">{{item.status}}</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+

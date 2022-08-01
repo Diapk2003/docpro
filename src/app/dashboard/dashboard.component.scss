@@ -1,0 +1,142 @@
+.d-d-heder {
+    margin-top: 2%;
+}
+.d-d-backcolor {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-70.png) no-repeat 12% 0%, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-71.png) no-repeat 91% 110%, #453f85;
+   h1 {
+        display: flex;
+        justify-content: center;
+        padding: 56px;
+        color: white;
+    }
+}
+.container-fluid{
+    background-color: #ebf7f6;
+}
+.h-s-content {
+    padding: 13px 50px;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+    
+    i {
+        margin: 6px
+    }
+
+}
+.scroll-all-page{
+    margin-top: 41px;
+}
+// footer
+
+
+.footer-section {
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-30.png) no-repeat 0 0, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-31.png) no-repeat 100% 100%, #1a2332;
+    width: 100%;
+    position: relative;
+}
+
+
+.f-content {
+    list-style-type: none;
+
+    li {
+        color: #fff;
+        padding: 8px 9px;
+        transition: all 500ms ease;
+
+        &:hover {
+            color: #39cabb;
+            cursor: pointer;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        
+    }
+
+    img {
+        height: 55px;
+       
+    }
+
+    p {
+        color: #fff;
+        padding: 8px 9px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 15px;
+       
+        &:hover {
+            color: #39cabb;
+        }
+    }
+
+
+}
+
+.footer-list-item {
+
+    padding: 97px 0px 30px 0;
+}
+
+
+
+.footer-l-icon {
+    display: flex;
+    align-items: center;
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+
+    }
+
+    span {
+        color: #fff;
+        padding: 8px 15px;
+        line-height: 26px
+    }
+}
+
+.footer-r-icon {
+    padding: 20px 0px 20px 0;
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+    }
+
+}
+
+.footer-e-icon {
+    padding: 20px 0 20px 0;
+
+
+    i {
+        color: #39cabb;
+        font-size: 25px;
+    }
+}
+
+
+.scroll-all-page{
+
+    height: 750px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.scroll-all-page::-webkit-scrollbar {
+    display: none;
+}

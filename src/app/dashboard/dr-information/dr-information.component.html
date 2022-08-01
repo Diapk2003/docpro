@@ -1,0 +1,84 @@
+<div class="row">
+    <div class="col-sm-4 ">
+        <div class="card dr-bg-img1">
+            <div class="dr-icon1">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class="dr-item-liest1">
+                <h3>170</h3>
+                <h6>Total Appointment</h6>
+                <p>Lorem ipsum dolor amet eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card dr-bg-img2">
+            <div class="dr-icon2">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div class="dr-item-liest2">
+                <h3>20</h3>
+                <h6>New Messages</h6>
+                <p>Lorem ipsum dolor amet eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card dr-bg-img3">
+            <div class="dr-icon3">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="dr-item-liest3">
+                <h3>50</h3>
+                <h6>New Reviews</h6>
+                <p>Lorem ipsum dolor amet eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Doctors Appointment -->
+<div class="password">
+    <h3>Doctors Register</h3>
+    <div class="dr-button">
+        <button type="submit" class=" submit-button">Upcomimg <i class="fa fa-arrow-right"></i></button>
+        <button type="reset" class=" cancel-button">Today</button>
+    </div>
+
+
+
+    <div class="table-box">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">images</th>
+                    <th scope="col">Doctor Name</th>
+                    <th scope="col">Doctor Degree</th>
+                    <th scope="col">Doctor MobileNo.</th>
+                    <th scope="col">Cinic Name</th>
+                    <th scope="col">Clinic Address</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of getData, let i=index">
+                    <td>{{i+1}}</td>
+                    <td><img height="100px" width="100px"  [src]="_d.bypassSecurityTrustUrl(item.fileUpload)" ></td> 
+                    <td>{{item.drName}}</td>
+                    <td>{{item.drDegree}}</td>
+                    <td>{{item.drMobileno}}</td>
+                    <td>{{item.clinicName}}</td>
+                    <td>{{item.clinicAddress}}</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    
+</div>

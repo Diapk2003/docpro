@@ -1,0 +1,151 @@
+
+@import "/src/styles.scss";
+
+.myprofile
+ {
+    background: white;
+    border-radius: 20px;
+    max-width: 96%;
+    margin: 30px;
+
+
+    h3 {
+        padding: 31px;
+        font-weight: 800;
+        border-bottom: 1px solid #808080;
+    }
+}
+
+.formbg {
+    padding: 35px;
+
+}
+
+.submit-button {
+
+    display: inline-block;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff !important;
+    text-align: center;
+    padding: 12px 14px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px #d5edea;
+    background: #39cabb;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 44px 0px 0 7px;
+    margin-bottom: 40px;
+
+    i {
+        padding: 0 0 0 9px;
+    }
+}
+
+.cancel-button {
+
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    background: #fff;
+    color: #061a3a;
+    border: 2px solid #e5eded;
+    border-radius: 30px;
+    padding: 11px 28px;
+    margin-left: 6px;
+    text-align: center;
+    margin: 44px 0px 0 7px;
+    border: 1px solid;
+    margin-bottom: 40px;
+}
+
+.profile-title {
+    border: 1px solid #808080;
+    border-radius: 20px;
+    max-width: 53%;
+    margin: 44px 0 0 30px;
+
+    .upload-photo {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 26px;
+        color: #fff !important;
+        text-align: center;
+        padding: 14px 17px;
+        border-radius: 30px;
+        box-shadow: 0 20px 30px #d5edea;
+        background: #39cabb;
+        border: none;
+        font-size: 19px;
+        font-weight: 700;
+        margin: 44px 0px 0 7px;
+
+        i {
+            content: "\f093";
+            padding-right: 5px;
+        }
+
+    }
+
+    img {
+        padding: 14px;
+    }
+
+    p {
+        margin-top: 24px;
+        font-size: 15px;
+        color: #808080;
+    }
+
+    .profile-img-box {
+        display: flex;
+    }
+}
+
+.form-group {
+  padding: 20px;
+}
+.Details{
+    padding: 9px;
+}
+.Clinic-img-1{
+    padding: 10px;
+}
+.Clinic-img-2{
+    margin-left: 20px;
+    padding: 10px;
+}
+.education-formbg{
+    padding: 10px;
+}
+.Basic-formbg{
+    padding: 8px;
+}
+
+.icon{
+    position: absolute;
+    left: 88%;
+    top: 68px;
+
+    background: #fff;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #e6eeee;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    color: #808080;
+    box-shadow: 0 20px 30px #d5edea;
+    &:hover{
+        background: #39cabb;
+        color: white;
+    }
+}
+.address-header {
+
+    @include header
+}

@@ -1,0 +1,140 @@
+@import "/src/styles.scss";
+
+.register-section {
+    padding: 52px 0px 48px 0px;
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-70.png)no-repeat 10% 0,
+        url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-71.png)no-repeat 90% 100%, #453f85;
+}
+
+.register-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+
+
+.r-background {
+    background-color: #ebf7f6;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.h-s-content {
+    padding: 13px 50px;
+    display: flex;
+
+    h4 {
+        font-size: 21px;
+        color: #90a5a9;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    i {
+        margin: 6px
+    }
+
+}
+
+.registration-box {
+    padding-bottom: 40px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 38%;
+
+    .header {
+        padding: 20px 40px 10px 40px;
+        background: #453f85;
+
+        h2 {
+            color: white;
+            font-weight: 700;
+            font-size: 26px;
+            // padding: 5px 0 0 20px;
+        }
+
+        p {
+            // padding: 0 0 0 20px;
+            color: rgb(181 178 206);
+        }
+    }
+
+    .r-content-box {
+        padding: 40px;
+
+        .r-rating {
+            border-bottom: 1px solid #d6dada;
+            padding: 0 0px 20px 0px;
+
+            i {
+                padding: 7px;
+                border: 1px solid #d6dada;
+                font-size: 20px;
+                margin: 3px;
+                color: #d6dada;
+                border-radius: 6px;
+
+                &:hover {
+                    color: #ffab3a;
+                }
+            }
+        }
+
+        .form-content {
+            .form_item {
+                margin-top: 30px;
+            }
+
+            .form-check {
+                a {
+                    color: #39cabb;
+                }
+            }
+
+            .send-button {
+                button {
+                    @include submit-b;
+                    width: 100%;
+
+                }
+
+                i {
+                    padding: 0px 0 0 6px;
+                }
+            }
+        }
+
+
+
+
+    }
+}
+
+.cont {
+    width: 93%;
+    max-width: 350px;
+    text-align: center;
+    margin: 4% auto;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+div.stars {
+    width: 270px;
+    display: inline-block;
+}

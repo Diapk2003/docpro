@@ -1,0 +1,81 @@
+<div class="register-section">
+    <div class="register-title">
+        <h1>Submit Review</h1>
+    </div>
+</div>
+
+<div class="container h-s-content">
+    <h5><a href="/admin">Home </a></h5>
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    <h4>Submit Review</h4>
+</div>
+
+<div class="r-background" [formGroup]="submitdata">
+    <div class="registration-box">
+        <div class="header">
+            <h2>Write a Review for Dr. Agnes Ayres</h2>
+            <p>Don’t hesitate to review me </p>
+        </div>
+        <div class="r-content-box">
+            <div class="r-rating">
+                <h3>Overall Rating</h3>
+                <form>
+                    <div class="cont">
+                        <div class="stars">
+                            <ngx-star-rating formControlName="Rating" [id]="'rating'" required></ngx-star-rating>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <form>
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group form_item">
+                                <label for="" class="form-label">Title of your review</label>
+                                <input formControlName="Title" type="text"
+                                    placeholder="if you could say it in one sentence,what would you say?"
+                                    class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group form_item">
+                                <label for="" class="form-label">Your name</label>
+                                <input formControlName="Yourname" type="text" placeholder="Enter your name"
+                                    class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group form_item">
+                                <label for="" class="form-label">Your email</label>
+                                <input formControlName="Youremail" type="text" placeholder="Enter your email"
+                                    class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group form_item">
+                            <label for="" class="form-label">Your review</label>
+                            <textarea formControlName="Yourreview" class="form-control"
+                                placeholder="write your review here" rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-check form_item">
+                        <input formControlName="iaccept" type="checkbox" class="form-check-input" required>
+                        <label class="form-check-label">I accept <a href="">terms</a> and <a href="">conditions</a> and
+                            general policy</label>
+                    </div>
+                    <div class="send-button ">
+                        <button [disabled]="!submitdata.valid" (click)="submit()">Send Message<i
+                                class="fa fa-arrow-right" aria-hidden="true"> </i></button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

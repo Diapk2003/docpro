@@ -1,0 +1,1291 @@
+.d-p-box {
+  background-color: #453f85;
+  width: 37%;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%, 0% 0%);
+
+  i {
+    width: 100%;
+  }
+}
+
+.d-p-image {
+  position: absolute;
+  width: 13%;
+  top: 86px;
+  left: 15%;
+}
+
+.menulitem {
+  display: flex;
+  justify-content: center;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.joinnow {
+  background-color: #39cabb;
+  border-color: #39cabb;
+  border-radius: 44px;
+  position: relative;
+  left: 67pc;
+  top: -11pc;
+  width: 10%;
+  height: 3pc;
+  font-size: 125%;
+  font-weight: 800;
+  font-size: 21px;
+  font-weight: 500;
+  box-shadow: 0 10px 10px #d5edea;
+  &:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+.blackimg {
+  position: relative;
+  top: 32px;
+  width: 245%;
+  height: 280%;
+}
+
+.col-6 {
+  z-index: 10;
+}
+
+.i {
+  img {
+    width: 100%;
+  }
+}
+
+.vector {
+  width: 700px;
+  position: absolute;
+  top: 30%;
+  right: 0;
+
+  img {
+    width: 100%;
+  }
+}
+
+// hover home
+.dropbtn {
+  position: absolute;
+  left: 34pc;
+  bottom: 2pc;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00224f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  left: 31pc;
+  top: -30px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+// hover doctors
+.bgbox {
+  background-color: white;
+  width: 100%;
+  height: 166px;
+}
+
+.dropbtndoctors {
+  position: absolute;
+  left: 39pc;
+  bottom: 57px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.doctors {
+  display: none;
+  position: absolute;
+  background-color: #00224f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  left: 37pc;
+  top: -56px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+// hover Patients
+.bgbox {
+  background-color: white;
+  width: 100%;
+  height: 166px;
+}
+
+.dropbtnParients {
+  position: absolute;
+  left: 45pc;
+  bottom: 82px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Parients {
+  display: none;
+  position: absolute;
+  background-color: #00224f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  left: 44pc;
+  top: -81px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+// hover news
+.bgbox {
+  background-color: white;
+  width: 100%;
+  height: 166px;
+}
+
+.dropbtnnew {
+  position: absolute;
+  left: 51pc;
+  bottom: 106px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.news {
+  display: none;
+  position: absolute;
+  background-color: #00224f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  left: 50pc;
+  top: -107px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.boutton {
+  position: relative;
+  left: 65%;
+  width: 23%;
+  bottom: 18pc;
+
+  .sign {
+    background: #ebf7f6;
+  }
+
+  .Career {
+    background: #ebf7f6;
+  }
+
+  .Contact {
+    background: #ebf7f6;
+  }
+}
+
+// erow 
+.herow {
+  img {
+    width: 100%;
+    height: 150%;
+    position: relative;
+    bottom: 12pc;
+  }
+}
+
+.vicktoe {
+  width: 42pc;
+  position: relative;
+  bottom: 48pc;
+  left: 46pc;
+}
+
+.herowtext {
+  position: relative;
+  left: 13%;
+  bottom: 77pc;
+  width: 40%;
+
+  h1 {
+    font-size: 4pc;
+    font-weight: 800;
+    color: #00224f;
+    ;
+  }
+
+  p {
+    font-size: 22px;
+    position: relative;
+    top: 17px;
+    left: 0pc;
+  }
+
+  .search {
+    position: relative;
+    top: 15px;
+    width: 72%;
+    height: 70px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 10px 90px 10px 30px;
+    font-size: 16px;
+    color: #848484;
+    border: 1px solid #fff;
+    box-shadow: 0 10px 30px rgb(57 202 187 / 15%);
+    transition: all 500ms ease;
+
+  }
+
+
+  .arrow {
+    position: absolute;
+    top: 273px;
+    right: 175px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease;
+    background: #39cabb;
+    border-color: #39cabb;
+
+
+    i {
+      content: "\f061";
+      font-size: 2pc;
+      position: absolute;
+      top: 13px;
+      left: 16px;
+    }
+  }
+
+  .arrow:hover {
+    background-color: black;
+  }
+}
+
+// logo img
+.logobg {
+  background-color: #453f85;
+  width: 100%;
+  height: 14pc;
+  position: relative;
+  bottom: 66pc;
+}
+
+.logobg {
+  .img2 {
+    position: relative;
+    left: 47%;
+    bottom: 11px;
+  }
+}
+
+.logoname {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 10pc;
+
+  img {
+    margin: 5px 20px;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.1s ease-in-out;
+    }
+  }
+}
+
+// appointmen
+.appointmen {
+  background: #ebf7f6;
+  width: 100%;
+  height: 35pc;
+  position: relative;
+  bottom: 66pc;
+
+  .appointmen-img {
+    position: relative;
+    left: 70%;
+
+  }
+
+}
+
+.appointmen-img2 {
+  position: relative;
+  top: 75%;
+  right: 12pc;
+  
+}
+
+.appointmencard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cardbg {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #eaf2f1;
+  transition: all 500ms ease;
+  width: 18%;
+  height: 18pc;
+  margin: 0px 18px;
+  display: flex;
+  justify-content: center;
+
+
+  .carditem {
+    display: flex;
+    flex-direction: column;
+    width: 15pc;
+  }
+
+  img {
+    width: 7pc;
+    position: relative;
+    left: 4pc;
+    top: 1pc;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 17px;
+    left: -74px;
+  }
+
+  .live {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: -71px;
+  }
+
+  .appoinment {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: -70px;
+  }
+
+  .active {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 22px;
+    left: -67px;
+  }
+
+  h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 900;
+    color: #fe5948;
+  }
+
+  .doctor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 900;
+    color: #39cabb;
+    top: 10px;
+  }
+
+  .nearest {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffab01;
+    top: 10px;
+  }
+
+  .help {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 900;
+    color: #01b4d9;
+    top: 10px;
+  }
+  // &:hover{
+  //   transform: rotate(360deg);
+  //   transition: width 2s, height 2s, transform 2s;
+  // }
+}
+
+.click {
+  position: absolute;
+  top: 210px;
+  right: 115px;
+  width: 55px;
+  height: 55px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 500ms ease;
+  background: #fe5948;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  i {
+    font-size: 2pc;
+    position: relative;
+    bottom: 5px;
+  }
+}
+
+// about page
+.about-section {
+  position: relative;
+  padding: 110px 0px 120px 0px;
+  top: -69pc;
+}
+
+.pattern-1 {
+  position: absolute;
+}
+
+.pattern-2 {
+  position: absolute;
+  left: 271px;
+  top: 258px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 0.7;
+  background-color: #39cabb;
+}
+
+.image {
+  z-index: 1;
+  position: relative;
+
+  img {
+    height: 540px;
+    width: 100%;
+
+  }
+}
+
+.name-content {
+  left: 60px;
+  position: relative;
+  top: 60px;
+}
+
+.a-name {
+  h5 {
+    color: #39cabb;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+
+
+}
+
+.p-text {
+  margin-top: 24px;
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 19px;
+    position: relative;
+    top: 0pc;
+    left: 0pc;
+
+  }
+}
+
+.li-style {
+  padding-top: 20px;
+  list-style: none;
+
+  li {
+    font-size: 20px;
+  }
+
+  i {
+    content: '';
+    position: relative;
+    right: 27px;
+    color: #39cabb;
+    font-weight: 900;
+    font-size: 16px;
+    border: 1px solid #39cabb;
+    border-radius: 8px
+  }
+}
+
+.btn-box {
+  position: relative;
+  left: 20px;
+  top: 30px;
+
+  button {
+    width: 170px;
+    height: 66px;
+    color: #fff;
+    background-color: #39cabb;
+    border: none;
+    border-radius: 40px;
+    font-size: 19px;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #453f85;
+    }
+  }
+}
+
+// TESTIMONIALS
+.trsrimonials {
+  width: 100%;
+  position: relative;
+  bottom: 70pc;
+}
+
+.img-trsrimonials1 {
+  width: 104%;
+  height: 100%;
+}
+
+.img-trsrimonials2 {
+  width: 745px;
+  height: 100%;
+}
+
+.trsrimonials-box {
+  position: absolute;
+  z-index: 10;
+  top: 5pc;
+  left: 16pc;
+  background: white;
+  width: 39%;
+  height: 69%;
+  border-radius: 15px
+}
+
+h6 {
+  position: relative;
+  top: 47px;
+  left: 3pc;
+  color: #39cabb;
+}
+
+.what {
+  position: relative;
+  left: 3pc;
+  top: 3pc;
+  font-size: 3pc;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: #39cabb;
+}
+
+p {
+  position: relative;
+  top: 4pc;
+  width: 24pc;
+  left: 3pc;
+  font-weight: 400;
+}
+
+.user-img {
+  img {
+    position: relative;
+    top: 5pc;
+    left: 4pc;
+  }
+
+  .p1 {
+    position: relative;
+    left: 10pc;
+    top: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #39cabb;
+  }
+
+  .p2 {
+    position: relative;
+    left: 10pc;
+    top: -1px;
+    color: red;
+  }
+}
+
+.button-img {
+  img {
+    position: relative;
+    bottom: 11pc;
+    width: 11pc;
+    left: 24pc;
+  }
+}
+
+.left-arrow {
+  position: relative;
+  bottom: 20pc;
+  left: 29pc;
+  width: 50px;
+  height: 50px;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #061a3a;
+  box-shadow: 0 0px 50px #d5edea;
+  cursor: pointer;
+  transition: all 500ms ease;
+  border: 1px solid;
+
+  i {
+    position: relative;
+    bottom: 6px;
+    font-size: 24px;
+  }
+}
+
+.right-arrow {
+  position: relative;
+  bottom: 16pc;
+  left: 26pc;
+
+  width: 50px;
+  height: 50px;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #061a3a;
+  box-shadow: 0 0px 50px #d5edea;
+  cursor: pointer;
+  transition: all 500ms ease;
+  border: 1px solid;
+
+  i {
+    position: relative;
+    bottom: 6px;
+    font-size: 24px;
+  }
+}
+
+// MEET OUR PROFESSIONALS
+.meet {
+  display: flex;
+  justify-content: center;
+  font-size: 1pc;
+  color: #39CABA;
+  position: relative;
+  top: -6pc;
+}
+
+.meet1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  bottom: 23pc;
+}
+
+.meet2 {
+  position: relative;
+  top: -5pc;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -6pc;
+  color: #39cabb;
+  font-weight: 900;
+}
+
+.meet-items {
+  position: absolute;
+  top: -2pc;
+}
+
+.meet-box-bg {
+  background: #0000000a;
+  width: 37%;
+  height: 43%;
+  border-radius: 15px;
+  position: relative;
+  top: 18pc;
+
+  img {
+    position: relative;
+    left: 2pc;
+    top: 5pc;
+  }
+
+  h2 {
+    position: absolute;
+    left: 10pc;
+    top: 5pc;
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  p {
+    position: relative;
+    left: 10pc;
+    top: 1pc;
+    font-weight: 600;
+  }
+
+  h3 {
+    position: relative;
+    left: 10pc;
+    font-size: 21px;
+    top: 1pc;
+  }
+}
+
+
+
+.str {
+  position: absolute;
+  left: 10pc;
+  top: 13pc;
+
+  i {
+    font-size: 22px;
+    color: #ffab01;
+    margin-left: 7px;
+    ;
+  }
+}
+
+.text32 {
+  position: absolute;
+  left: 19pc;
+  top: 207px;
+  font-size: 19px;
+}
+
+.today {
+  position: relative;
+  top: 5px;
+  left: 23pc;
+  font-size: 19px;
+}
+
+.checkicon {
+  position: absolute;
+  top: 82px;
+  left: 23pc;
+  font-size: 30px;
+  color: #39cabb;
+}
+
+.cardicon {
+  content: "\f05d";
+  position: absolute;
+  top: 84px;
+  left: 25pc;
+  font-size: 24px;
+  color: #39cabb;
+}
+
+.address {
+  p {
+    position: relative;
+    top: 0pc;
+    left: 12pc
+  }
+
+  i {
+    content: "\f041";
+    position: absolute;
+    font-size: 27px;
+    left: 170px;
+    top: 237px;
+  }
+}
+
+// process 
+
+
+.process-section {
+  height: 700px;
+  width: 100%;
+  background-color: #453f85;
+  position: relative;
+  bottom: 70pc;
+}
+
+.process-header {
+  position: relative;
+  top: 55px;
+
+  p {
+    color: #39cabb;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 0pc;
+    left: 34pc;
+  }
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+  }
+}
+
+.process-img-1 {
+  position: absolute;
+  left: 65pc;
+}
+
+.process-img-2 {
+  position: absolute;
+  top: 35pc;
+  left: 5pc;
+}
+
+.process-img-3 {
+  position: absolute;
+  left: 7pc;
+  top: 2pc;
+}
+
+.process-inner-content {
+  position: relative;
+  background-color: #fff;
+  height: 390px;
+  width: 80%;
+  left: 151px;
+  top: 100px;
+  border-radius: 20px;
+
+  span {
+    position: absolute;
+    top: 0px;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    background: #061a3a;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+
+  }
+}
+
+.p-i-c-row {
+  height: 390px;
+
+}
+
+.p-i-c-col {
+  border-right: 2px solid #e4f2f1;
+}
+
+.p-i-content-box {
+  position: relative;
+  top: 20px;
+}
+
+.p-i-c-image {
+  position: relative;
+  top: 20px;
+}
+
+.p-i-c-name {
+  position: relative;
+  top: 40px;
+
+  h2 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+
+}
+
+.p-i-c-description {
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+
+  p {
+    position: relative;
+    top: 0pc;
+    width: 24pc;
+    left: 0pc;
+    font-weight: 400;
+  }
+}
+
+
+
+
+//meet profetional
+
+.profetional-section {
+  background-color: #ebf7f6;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  bottom: 77pc;
+}
+
+.profetional-pattern-1 {
+  position: absolute;
+  right: 100px;
+
+}
+
+.profetional-pattern-2 {
+  position: absolute;
+  left: 100px;
+  top: 60px;
+}
+
+.profetional-pattern-3 {
+  position: absolute;
+  right: 200px;
+  bottom: 20px;
+
+}
+
+.profetional-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8pc;
+
+  h5 {
+    color: #39cabb;
+    font-weight: 700;
+    font-size: 19px;
+  }
+
+  h1 {
+    position: relative;
+    display: block;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 900;
+    color: #00224f;
+  }
+}
+
+.profetional-inner-box {
+  background-color: #fff;
+  padding: 20px 10px;
+  border-radius: 15px 50px 30px;
+}
+
+.profetional-card {
+  position: relative;
+  top: 13pc;
+}
+
+.p-card-content {
+  position: relative;
+  margin: 30px 0px 30px 0px;
+
+  h3 {
+    padding-bottom: 20px;
+  }
+}
+
+.p-card-item {
+  list-style-type: none;
+
+  a {
+    text-decoration: none;
+    position: relative;
+    right: 30px;
+    color: #2f405b;
+    font-size: 20px;
+    line-height: 50px;
+
+    &:hover {
+      color: #39cabb;
+    }
+  }
+}
+
+.profetional-button {
+
+  background-color: #e6f5f3;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    transform: scale(1.3);
+    background-color: #00224f;
+    cursor: pointer;
+  }
+
+  i {
+    position: relative;
+    top: 11px;
+    left: 14px;
+    color: #3acabb;
+    font-size: 28px;
+  }
+}
+
+// footer
+
+.f-c-content {
+  // height: 280px;
+  width: 100%;
+  background-color: #453f85;
+  margin: auto;
+  border-radius: 10px;
+  top: 140px;
+  position: relative;
+  z-index: 1;
+  padding: 20px 0px 20px 0;
+  padding: 30px;
+}
+
+
+.f-content-item {
+  color: #fff;
+  border: 1px #fff;
+  border-style: dashed;
+  margin: 20px 20px;
+  border-radius: 10px;
+
+  h1 {
+    //  left: 20px;
+    // position: relative;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 800
+  }
+}
+
+
+
+.support-box {
+  display: flex;
+  padding: 0px 0px 24px 20px;
+  align-items: center;
+
+  .telephone {
+    padding: 0px 0px 0px 20px
+  }
+
+  a {
+    text-decoration: none;
+    color: #39cabb;
+    // left: -44px;
+    position: relative;
+    // top: 6px
+  }
+}
+
+
+
+.search-box {
+  // position: relative;
+  // left: 40px;
+  display: flex;
+  padding: 0px 60px 0 20px;
+
+  input {
+    padding: 0px 0px 0px 35px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    color: #fff;
+    border-radius: 30px 0px 0px 30px;
+    outline: none;
+  }
+
+  button {
+    flex-shrink: 0;
+    padding: 13px;
+    // border-radius: 38px;
+    // position: relative;
+    left: 0px;
+    background-color: #39cabb;
+    color: #fff;
+    outline: none;
+    border: 1px solid #39cabb;
+    border-radius: 0px 30px 30px 0px;
+  }
+
+  i {
+    font-size: 22px;
+    // top: 3px;
+    // position: relative;
+    vertical-align: middle;
+  }
+}
+
+
+.home{
+  a:hover {
+    color: #45c1b6; 
+    transition: all 0.3s ease-in-out;
+  }
+}
+.doctors{
+  a:hover {
+    color: #45c1b6; 
+    transition: all 0.3s ease-in-out;
+  }
+}
+.Parients{
+  a:hover {
+    color: #45c1b6; 
+    transition: all 0.3s ease-in-out;
+  }
+}
+.news{
+  a:hover {
+    color: #45c1b6; 
+    transition: all 0.3s ease-in-out;
+  }
+}

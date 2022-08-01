@@ -1,0 +1,306 @@
+@import "/src/styles.scss";
+
+.doctor-section {
+    padding: 52px 0px 48px 0px;
+    background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-70.png)no-repeat 10% 0,
+        url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-71.png)no-repeat 90% 100%, #453f85;
+}
+
+.doctor-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+
+
+.d-background {
+    background-color: #ebf7f6;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.h-s-content {
+    padding: 13px 50px;
+    display: flex;
+
+    h4 {
+        color: #90a5a9;
+        font-size: 21px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    i {
+        margin: 6px
+    }
+
+}
+
+.doctor-box {
+    // padding-bottom: 40px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 95%;
+
+    .header {
+        padding: 20px 40px 10px 40px;
+        background: #453f85;
+
+        h2 {
+            color: white;
+            font-weight: 700;
+            font-size: 26px;
+            // padding: 5px 0 0 20px;
+        }
+
+        p {
+            // padding: 0 0 0 20px;
+            color: rgb(181 178 206);
+        }
+    }
+
+    .d-content-box {
+        .full-content {
+            padding: 40px;
+            display: flex;
+
+            .image-box {
+                img {
+                    height: 220px;
+                    width: 190px;
+                }
+            }
+        }
+
+
+
+
+        // booking appointment
+        .form-content {
+            border-bottom: 1px solid #e5e7ec;
+            padding: 40px 40px 0px 40px;
+
+            .form_item {
+                margin-bottom: 30px;
+            }
+        }
+
+        .form-content-1 {
+            padding: 40px 40px 40px 40px;
+
+            .book-a-button {
+                button {
+                    @include submit-b;
+                    width: 100%;
+                }
+            }
+
+            h3 {
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            .form_item {
+                margin-top: 30px;
+            }
+
+            .cheak-box {
+                border: 1px solid #e5e7ec;
+                padding: 5px;
+                border-radius: 5px;
+
+                label {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.f-content-box {
+
+    padding: 0 0 0 35px;
+
+    p {
+        font-size: 17px;
+        color: #808080;
+        margin: 5px;
+
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .title-name {
+        display: flex;
+    }
+
+    i {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+}
+
+.star-icon {
+
+    i {
+        color: #ffab01;
+        padding: 0 0 0 7px;
+    }
+
+    span {
+        padding: 0 0 0 12px;
+
+    }
+}
+
+.location {
+    line-height: 30px;
+    color: #808080;
+
+    i {
+        font-size: 17px;
+        color: #39cabb;
+    }
+
+    span {
+        padding: 0 0 0 12px;
+    }
+
+}
+
+.number {
+    line-height: 30px;
+    color: #808080;
+    transition: all .8s ease-in-out;
+
+    i {
+        font-size: 17px;
+        color: #39cabb;
+    }
+
+    span {
+        padding: 0 0 0 12px;
+    }
+
+    &:hover {
+        color: #39cabb;
+        cursor: pointer;
+    }
+
+}
+
+.available {
+    p {
+        color: #01c4ea;
+    }
+}
+
+
+
+.pagination {
+    padding: 27px;
+
+    li {
+        a {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            color: #061a3a;
+            transition: all 500ms ease;
+            color: black;
+            box-shadow: 0 10px 10px #d5edea;
+            margin-right: 20px;
+            text-decoration: none;
+
+            &:hover {
+                background: #39cabb;
+                color: white;
+            }
+        }
+    }
+}
+
+// overview page, experience page
+
+.overview-fullbox {
+    margin-top: 40px;
+
+    .overview-content {
+        border-bottom: 1px solid #e5e7ec;
+        padding: 40px 40px 0px 40px;
+
+        .form_item {
+            margin-bottom: 30px;
+        }
+
+        .o-content {
+            padding: 10px 0px 10px 0px;
+
+            ul {
+                list-style: none;
+
+                li {
+                    line-height: 40px;
+
+                    a {
+                        text-decoration: none;
+                        color: #00224f;
+                        transition: all 0.8s ease-in-out;
+
+                        &:hover {
+                            color: #39cabb;
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                color: #00224f;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                color: #808080;
+                font-weight: 400;
+            }
+        }
+    }
+}
