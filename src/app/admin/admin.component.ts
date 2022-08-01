@@ -46,4 +46,8 @@ reg(){
   this.router.navigate(['register'])
 }
 
+Doctors(){
+  this.router.navigate(['/dashbord/dr-information'])
+}
+
 }

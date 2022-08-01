@@ -22,6 +22,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { LoginDoctorComponent } from './login-doctor/login-doctor.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import { FilterPipe } from './pipe/filter.pipe';
 
 @NgModule({
   declarations: [

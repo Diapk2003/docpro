@@ -38,7 +38,8 @@
   font-size: 21px;
   font-weight: 500;
   box-shadow: 0 10px 10px #d5edea;
-  &:hover{
+
+  &:hover {
     transform: scale(1.1);
     transition: all 0.4s ease-in-out;
   }
@@ -411,7 +412,7 @@
   position: relative;
   top: 75%;
   right: 12pc;
-  
+
 }
 
 .appointmencard {
@@ -517,10 +518,12 @@
     color: #01b4d9;
     top: 10px;
   }
-  // &:hover{
-  //   transform: rotate(360deg);
-  //   transition: width 2s, height 2s, transform 2s;
-  // }
+
+  &:hover {
+    // background: url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-5.png) no-repeat, url(http://azim.commonsupport.com/Docpro/assets/images/shape/shape-9.png) no-repeat 100% 100% white;
+    transform: scale(1.1);
+    
+  }
 }
 
 .click {
@@ -1232,6 +1235,7 @@ p {
   display: flex;
   padding: 0px 60px 0 20px;
 
+
   input {
     padding: 0px 0px 0px 35px;
     width: 100%;
@@ -1241,6 +1245,7 @@ p {
     color: #fff;
     border-radius: 30px 0px 0px 30px;
     outline: none;
+    
   }
 
   button {
@@ -1262,30 +1267,34 @@ p {
     // position: relative;
     vertical-align: middle;
   }
+  
 }
 
 
-.home{
+.home {
   a:hover {
-    color: #45c1b6; 
+    color: #45c1b6;
     transition: all 0.3s ease-in-out;
   }
 }
-.doctors{
+
+.doctors {
   a:hover {
-    color: #45c1b6; 
+    color: #45c1b6;
     transition: all 0.3s ease-in-out;
   }
 }
-.Parients{
+
+.Parients {
   a:hover {
-    color: #45c1b6; 
+    color: #45c1b6;
     transition: all 0.3s ease-in-out;
   }
 }
-.news{
+
+.news {
   a:hover {
-    color: #45c1b6; 
+    color: #45c1b6;
     transition: all 0.3s ease-in-out;
   }
 }

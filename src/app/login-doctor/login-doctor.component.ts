@@ -26,7 +26,7 @@ export class LoginDoctorComponent implements OnInit {
 
     if(username === this.username && password === this.password){
       console.log(this.form);
-    this.router.navigate(['/admin'])
+    this.router.navigate(['/dashbord/dr-information'])
     alert('Login Successful')
     }else{
       alert('Username Password Invalid')

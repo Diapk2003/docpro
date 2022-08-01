@@ -20,6 +20,7 @@ import { SharedModule } from '../shredmodul/shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
 // import { TabalDataComponent } from './tabal-data/tabal-data.component';
 
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 
@@ -50,6 +51,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     DashboardRoutingModule,
     SharedModule,
     ReactiveFormsModule,
+    Ng2SearchPipeModule
 
    
   ],
