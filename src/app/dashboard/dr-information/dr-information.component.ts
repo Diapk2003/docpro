@@ -10,14 +10,17 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class DrInformationComponent implements OnInit {
 
-  constructor(private registerSrevice:RegisterService, public _d: DomSanitizer) { }
+
+  constructor(private registerSrevice:RegisterService, public _d: DomSanitizer) {
+
+   }
  
   getData= this.registerSrevice.retrivePassedData()
   ngOnInit(): void {
     console.log(this.getData);
   }
 
-  // imgsrc = 'https://c.staticblitz.com/assets/client/components/SideMenu/blitz_logo-11cebad97cad4b50bc955cf72f532d1b.png';
+ 
 
   doctorappointment=[
     {
@@ -76,6 +79,7 @@ export class DrInformationComponent implements OnInit {
       buttonclass:'dr-pending-button',
     },
   ]
+  
   
 
 

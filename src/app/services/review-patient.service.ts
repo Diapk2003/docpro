@@ -10,7 +10,7 @@ export class ReviewPatientService {
 
 
   setData(data:any){
-    this.allPassedData = data;
+    this.allPassedData.push(data)
     
   }
 

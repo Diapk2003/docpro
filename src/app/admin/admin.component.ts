@@ -30,14 +30,14 @@ export class AdminComponent implements OnInit {
       image:'http://azim.commonsupport.com/Docpro/assets/images/icons/icon-6.png',
       num:'02',
       name:'View Professional Profile',
-      description:'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt.',
+      description:'Lorem ipsum dolor sit amet consectur adipiscing elit sed',
       border:'show',
     },
     {
       image:'http://azim.commonsupport.com/Docpro/assets/images/icons/icon-7.png',
       num:'03',
       name:'Get Instant Doctor Appoinment',
-      description:'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt.',
+      description:'sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt.',
       border:'',
     }
   ]
@@ -46,8 +46,8 @@ reg(){
   this.router.navigate(['register'])
 }
 
-Doctors(){
-  this.router.navigate(['/dashbord/dr-information'])
-}
+// Doctors(){
+//   this.router.navigate(['/dashbord/dr-information'])
+// }
 
 }

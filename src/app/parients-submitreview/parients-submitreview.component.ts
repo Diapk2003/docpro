@@ -32,8 +32,8 @@ export class ParientsSubmitreviewComponent implements OnInit {
   } 
 
 submit(){
-  this.datapush.push(this.submitdata.value)
-  this.reviewSer.setData(this.datapush)
+  // this.datapush.push(this.submitdata.value)
+  this.reviewSer.setData(this.submitdata.value)
   this.submitdata.reset();  
   this.router.navigate(["/dashbord/reviews"])
 

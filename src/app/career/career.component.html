@@ -5,7 +5,7 @@
 </div>
 
 <div class="container h-s-content">
-    <h5><a href="/admin">Home </a></h5>
+    <h5><a routerLink="/admin">Home </a></h5>
     <i class="fa fa-chevron-right" aria-hidden="true"></i>
     <h4>How It Works</h4>
 </div>
@@ -43,10 +43,10 @@
                     <div class="career-item-h2">
                         <p>FAQ’S</p>
                         <h2>Frequently Asked Questions.</h2>
-                        <button class="btn career-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        Do doctors pay for good reviews?<i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </button>
+                        <button class="btn career-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Do doctors pay for good reviews?<i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </button>
                     </div>
 
 
@@ -56,10 +56,22 @@
                             magna aliquaenim ad minim veniam quis nostrud exercitation ullamco laboris.
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <select formControlName="numberOfTickets" class="form-control"
+                                (change)="onChangeTickets($event)">
+                                <option value=""></option>
+                                <option *ngFor="let item of [1, 2, 3, 4]">
+                                    {{ item }}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
+
 
 </div>

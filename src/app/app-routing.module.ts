@@ -16,48 +16,51 @@ import { ParientsSubmitreviewComponent } from './parients-submitreview/parients-
 
 const routes: Routes = [
   {
-    path:'login', component:LoginComponent
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full'
   },
   {
-    path:'logindoctor', component:LoginDoctorComponent
+    path: 'login', component: LoginComponent
   },
   {
-    path:'register', component:RegisterComponent
+    path: 'logindoctor', component: LoginDoctorComponent
   },
   {
-    path:'blogjrid', component:BlogGridComponent
+    path: 'register', component: RegisterComponent
   },
   {
-    path:'standard', component:BlogStandardComponent
+    path: 'blogjrid', component: BlogGridComponent
   },
   {
-    path:'career', component:CareerComponent
+    path: 'standard', component: BlogStandardComponent
   },
   {
-    path:'contact', component:ContactComponent
-  },
-  {path:'JuliaJhones', component:JuliaJhonesComponent },
-  {path:'MaryAstor', component:MaryAstorComponent},
-  {path:'RexAllen', component:RexAllenComponent},
-  {path:'StellaAdler', component:StellaAdlerComponent},
-  {
-    path:'bookappointment', component:ParientsBookappointmentComponent
+    path: 'career', component: CareerComponent
   },
   {
-    path:'submitreview', component:ParientsSubmitreviewComponent
+    path: 'contact', component: ContactComponent
+  },
+  { path: 'JuliaJhones', component: JuliaJhonesComponent },
+  { path: 'MaryAstor', component: MaryAstorComponent },
+  { path: 'RexAllen', component: RexAllenComponent },
+  { path: 'StellaAdler', component: StellaAdlerComponent },
+  {
+    path: 'bookappointment', component: ParientsBookappointmentComponent
+  },
+  {
+    path: 'submitreview', component: ParientsSubmitreviewComponent
+  },
+  {
+    path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)
+  },
+  {
+    path: 'dashbord', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
+  },
+  {
+    path: 'Parients', loadChildren: () => import('./parients/parients.module').then(m => m.ParientsModule)
   },
 
-  
-  {
-    path:'admin', loadChildren: () => import('./admin/admin.module').then(m=>m.AdminModule)
-  },
-  {
-    path:'dashbord', loadChildren: () => import('./dashboard/dashboard.module').then(m=>m.DashboardModule)
-  },
-  {
-    path:'Parients', loadChildren: () => import('./parients/parients.module').then(m=>m.ParientsModule)
-  },
-   
 ];
 
 @NgModule({

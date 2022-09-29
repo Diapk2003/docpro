@@ -21,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 // import { TabalDataComponent } from './tabal-data/tabal-data.component';
 
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 
@@ -51,7 +52,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     DashboardRoutingModule,
     SharedModule,
     ReactiveFormsModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    NgxPaginationModule
 
    
   ],

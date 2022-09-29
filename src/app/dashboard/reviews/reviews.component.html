@@ -2,10 +2,10 @@
     <h3>Reviews List</h3>
 
     <div class="revires-box">
-        <div class="revires-item">
+        <!-- <div class="revires-item">
             <img src="http://azim.commonsupport.com/Docpro/assets/images/resource/comment-1.png" alt="">
 
-        </div>
+        </div> -->
         <div class="revires-item-2" *ngFor="let item Of getData">
             <div class="stars">
                 <i class="fa fa-star str" aria-hidden="true"> {{item.Rating}}</i>
@@ -13,8 +13,8 @@
             <h6>{{item.Title}}</h6>
             <h6>{{item.Yourname}}</h6>
             <h6>{{item.Youremail}}</h6>
-            <p>{{item.Yourreview}}</p>
-            <p>{{item.iaccept}}</p>
+            <h6>{{item.Yourreview}}</h6>
+            <h6>{{item.iaccept}}</h6>
             <div class="revires-icon">
                 <button type="reset" class=" cancel-button"><i class="fa fa-reply" aria-hidden="true"></i>Reply</button>
             </div>  

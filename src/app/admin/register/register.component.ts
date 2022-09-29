@@ -3,6 +3,8 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { RegisterService } from 'src/app/services/register.service';
+import { FormControl, Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-register',
@@ -14,6 +16,11 @@ export class RegisterComponent implements OnInit {
   data:any = []
   imgsrc:any
   formdata! :FormGroup
+
+  public formGroup = new FormGroup({
+    date: new FormControl(null, [Validators.required]),
+    date2: new FormControl(null, [Validators.required])
+  })
   constructor(private formbuilder: FormBuilder,private registerService:RegisterService,private router:Router,public _d: DomSanitizer) { }
 // imgsrc = 'https://c.staticblitz.com/assets/client/components/SideMenu/blitz_logo-11cebad97cad4b50bc955cf72f532d1b.png';
   ngOnInit(): void {
@@ -25,6 +32,7 @@ export class RegisterComponent implements OnInit {
       clinicName: [''],
       clinicAddress: [''],
       fileUpload:[''],
+      
     })
   }
 
@@ -35,18 +43,12 @@ export class RegisterComponent implements OnInit {
     // alert("success data send !!")
     this.router.navigate(['/logindoctor'])
     // console.log(this.formdata);
-      
-    
   }
 
   fileChange(e:any) {
     const file = e.srcElement.files[0]; 
     this.imgsrc = window.URL.createObjectURL(file); 
     this.formdata.value.fileUpload = this.imgsrc
-
   }
-
-
-
 
 }

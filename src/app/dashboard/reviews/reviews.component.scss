@@ -63,12 +63,16 @@
 }
 
 .revires-item-2 {
-    margin-left: 22px;
+    padding: 20px;
 
     .str {
         color: #ffab01;
         display: flex;
         justify-content: end;
+        font-size: 24px;
+    }
+    h6{
+        font-size: 19px;
     }
 }
 .revires-box{
